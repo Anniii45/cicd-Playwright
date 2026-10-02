@@ -1,0 +1,19 @@
+{
+  "name": "cicd-playwright",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report output/reports"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^24.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
